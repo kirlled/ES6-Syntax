@@ -95,8 +95,7 @@ function learning(...technologies){
   technologies.forEach((tech) => learningTech.push(tech));
 }
 
-var dev = new Developer('Kirlled', 'M', '1995-40-40',
-                        'Venezuela', 'Full Stack' ,'LEMP');
+var dev = new Developer('Kirlled', 'M', '1995-40-40', 'Venezuela', 'Full Stack' ,'LEMP');
 dev.website = 'kirlled.com';
 dev.email   = 'kirlledaraque@gmail.com';
 
