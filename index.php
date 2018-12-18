@@ -6,7 +6,7 @@
   <title>ES6</title>
 </head>
 <body>
-  
+
   <script src="app.js"></script>
 </body>
 </html>

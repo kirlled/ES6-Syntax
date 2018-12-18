@@ -6,7 +6,7 @@ var div = (a, b) => a / b;
 class Operations{
   /**
    * Does a split, then a reverse and finally a join.
-   * It has a cost of O(n), however, it's more efficient than to use
+   * It has a cost of O(n), however, it's more efficient than using
    * the three native methods with concatenation
    * 
    * @param  {String} string  String to be operated
