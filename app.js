@@ -222,3 +222,11 @@ through my website ${dev.website}
 or my email ${dev.email}
 Regards!
 `);
+
+console.time('bespoke');
+Operations.splitReverseJoin(dev.birthdate);
+console.timeEnd('bespoke');
+
+console.time('severalFunctions');
+dev.getBirthdate();
+console.timeEnd('severalFunctions');
